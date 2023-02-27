@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href = "index.css">
-    <script src =  "index.js" defer></script>
+    <script src="index.js" defer></script>
     <title>AstroWave</title>
 </head>
 <body>
     <div id="form">
         <form>
             <label for="month-date-input">Enter a month and date (MM/DD):</label>
+
             <input type="text" placeholder="MM/DD" id="input" name="month-date-input" pattern="^(0?[1-9]|1[0-2])\/(0?[1-9]|[12][0-9]|3[01])$">
 
         </form>
@@ -27,11 +28,18 @@
         <img src="images/virgo.png" class="avatar" id="virgo">
         <img src="images/libra.png" class="avatar" id="virgo">
         <img src="images/scorpio.png" class="avatar" id="scorpio">
-        <img src="images/sagittarius.png" class="avatar" id="sagitarius">
-        <img src="images/capricorn.png" class="avatar" id="capriicorn">
+        <img src="images/sagittarius.png" class="avatar" id="sagittarius">
+        <img src="images/capricorn.png" class="avatar" id="capricorn">
         <img src="images/aquarius.png" class="avatar" id="aquarius">
         <img src="images/pisces.png" class="avatar" id="pisces">
         <!-- <img src="images/bird.png" class="avatar" id="bird"> -->
+    </div>
+    <div>
+        <button id="pause">Pause</button>
+    </div>
+    <div class="score">
+        <span class="score_title"></span>
+        <span class="score_val"></span>
     </div>
     <!-- <div>
         <div id = "obstacle"></div>
