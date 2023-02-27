@@ -53,3 +53,9 @@
     top: 100px;
     border-radius: 50%;
 }
+
+#sagittarius, 
+#virgo,
+#capricorn {
+    transform: scaleX(-1);
+}

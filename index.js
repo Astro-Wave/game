@@ -199,7 +199,6 @@ function createPipe() {
 }
   
 
-  }
 
 // This function is invoked when the user presses enter in the input field, determines their zodiac sign, empty the input field, invokes the showSigns function, and clicks the character button. After that it remove all the initial states of the game.
 
@@ -215,11 +214,8 @@ function pressEnter(e) {
         form.style.display = 'none';
     }
 }
-<<<<<<< HEAD
 
 // Hello this is a test
 
 
 
-=======
->>>>>>> 597fcd184e189ed19fbeb208c5d2bc0ac2af1a6d
