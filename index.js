@@ -214,8 +214,3 @@ function pressEnter(e) {
         form.style.display = 'none';
     }
 }
-
-// Hello this is a test
-
-
-
